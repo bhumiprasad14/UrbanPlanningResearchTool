@@ -1,0 +1,62 @@
+Urban Planning Research Tool – Project Documentation
+
+Overview:
+This project is an Urban Planning Research Tool built using Python and Streamlit. 
+It helps analyze city-level data such as population demographics, zoning regulations, 
+and transportation networks to support better urban planning decisions.
+
+Objectives:
+- Analyze census demographic data
+- Inspect zoning rules and land-use constraints
+- Study transportation connectivity
+- Provide an interactive interface for planners and researchers
+
+Datasets:
+The datasets used in this project are sourced from Kaggle and stored in CSV format.
+
+1. census.csv
+   - City
+   - Population
+   - Median age
+   - Employment rate
+
+2. zoning.csv
+   - Zone type
+   - Maximum building height
+   - Density
+
+3. transport.csv
+   - Source location
+   - Destination location
+   - Distance
+
+Technology Stack:
+- Python
+- Streamlit
+- Pandas
+- CSV datasets
+
+Project Structure:
+urban-planning-tool/
+- app.py
+- data/
+  - census.csv
+  - zoning.csv
+  - transport.csv
+- requirements.txt
+- README.md
+- document.txt
+
+How the System Works:
+The Streamlit application reads the CSV files using Pandas and displays the data 
+in an interactive web interface. Users can explore urban data visually and 
+use it for planning and analysis purposes.
+
+Deployment:
+The project is deployed using Streamlit Cloud and connected to a public GitHub repository.
+
+Use Cases:
+- Urban planning research
+- Smart city analysis
+- Academic projects
+- Policy evaluation
